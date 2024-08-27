@@ -1,12 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   background-color: #f4f4f9;
   color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .app {
@@ -14,6 +15,7 @@ body {
   width: 100%;
   max-width: 600px;
   padding: 20px;
+  margin: 20px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -76,7 +78,7 @@ button {
 }
 
 button:disabled {
-  background-color: #b0c4de;
+  background-color: #58616c;
   cursor: not-allowed;
 }
 
@@ -97,4 +99,8 @@ button:hover:enabled {
   margin-top: 40px;
   font-size: 0.8em;
   color: #aaa;
+}
+
+small {
+  opacity: 0.8;
 }
