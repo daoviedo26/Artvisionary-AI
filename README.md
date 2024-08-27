@@ -4,8 +4,11 @@ Artvisionary-AI es una aplicación impulsada por inteligencia artificial que ide
 # Ejecutar Backend
 cd backend 
 source app/bin/activate
+pip uninstall torch
+pip install torch
 python main.py
 
 # Ejecutar Frontend
 cd frontend
+npm install
 npm run dev
